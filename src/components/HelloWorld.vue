@@ -2,7 +2,9 @@
   <el-container>
     <div class="config-form">
       <h2>PalWorld INI配置文件生成器</h2>
-      <a href="https://github.com/knva/PalWorld_server_config">原作者GITHUB开源链接</a>
+      <a href="https://github.com/knva/PalWorld_server_config">原作者GITHUB开源链接，感谢开源者。</a>
+      <div>Windows用户把生成的配置内容放到：帕鲁服务器目录/Pal/Saved/Config/WindowsServer/PalWorldSettings.ini中，并重启服务器即可生效。</div>
+      <div>Linux用户的配置文件位置是：帕鲁服务器目录/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini，同样重启服务器即可生效。</div>
       <el-row class="row-bg" justify="space-evenly">
         <el-col :span="6">
           <el-upload
