@@ -2,6 +2,7 @@
   <el-container>
     <div class="config-form">
       <h2>PalWorld INI配置文件生成器</h2>
+      <a href="https://github.com/knva/PalWorld_server_config">原作者GITHUB开源链接</a>
       <el-row class="row-bg" justify="space-evenly">
         <el-col :span="6">
           <el-upload
